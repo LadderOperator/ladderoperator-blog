@@ -1,0 +1,59 @@
+baseURL = 'https://ladderoperator.top/'
+languageCode = 'zh-cn'
+title = 'LadderOperator'
+theme = 'hugo-theme-cleanwhite'
+
+preserveTaxonomyNames = true
+paginate = 8 #frontpage pagination
+
+builddrafts = false
+canonifyurls = true
+hasCJKLanguage = true
+
+[outputs]
+home = ["HTML", "RSS"]
+
+[params]
+  header_image = "img/header.jpg"
+  slogan = "庶人碌碌，自有追逐"
+  author = "LadderOperator"
+
+  omit_categories = false
+
+  featured_tags = true
+  featured_condition_size = 1
+
+  friends = true
+  bookmarks = true
+  about_me = true
+
+  # Sidebar settings
+  sidebar_about_description = "南京大学凝聚态物理在读研究生"
+  sidebar_avatar = "img/avatar.jpg"
+
+  custom_css = ["css/hugo-ladderoperator.css"]
+
+[params.social]
+rss     = true 
+email   = "tz_ji@qq.com"
+github  = "https://github.com/LadderOperator"
+
+[[params.friend_link]]
+title = "idealclover"
+href  =  "https://idealclover.top/"
+[[params.friend_link]]
+title = "YDJSIR's Blog"
+href  =  "https://ydjsir.com.cn/"
+[[params.friend_link]]
+title = "Muthesius"
+href  =  "https://myandeg.xyz/"
+
+[[params.bookmark_link]]
+title =  "南京大学IT侠文档共享计划"
+href  =  "https://www.yuque.com/itxia"
+[[params.bookmark_link]]
+title = "NJU-ITXIA"
+href  = "https://itxia.club"
+[[params.bookmark_link]]
+title = "Low Dimensional Magnetism Group"
+href  = "https://ldm.nju.edu.cn"
