@@ -10,6 +10,8 @@ builddrafts = false
 canonifyurls = true
 hasCJKLanguage = true
 
+summaryLength = 60
+
 [outputs]
 home = ["HTML", "RSS"]
 

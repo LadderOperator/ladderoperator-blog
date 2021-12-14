@@ -10,17 +10,17 @@
 .post-thumbnail {
 
 	float: left;
-	width: 35%;
+	width: 45%;
 	margin-top: 30px;
 }
 
 .post-preview {
-	display: block;
+	display: inline-block;
 }
 
 .post-text {
 	float: right;
-	width: 60%;
+	width: 50%;
 }
 
 .post-meta {
@@ -30,6 +30,7 @@
 
 .post-title {
 	margin-top: 0px!important;
+	font-size: 24px;
 }
 
 .post-link {
