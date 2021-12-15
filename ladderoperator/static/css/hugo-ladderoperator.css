@@ -84,3 +84,14 @@ div.home-header-overlay {
 	backdrop-filter: brightness(50%);
 	-webkit-backdrop-filter: brightness(50%);
 }
+
+.post-container img:not(.inline) {
+	border-radius: 10px;
+	box-shadow: 0px 0px 10px 0.5px rgb(0,0,0,20%);
+	-moz-box-shadow: 0px 0px 10px 0.5px rgb(0,0,0,20%);
+	-webkit-box-shadow: 0px 0px 10px 0.5px rgb(0,0,0,20%);
+}
+
+.site-heading h1{
+	font-family: 'Times New Roman', Times, serif!important;
+}

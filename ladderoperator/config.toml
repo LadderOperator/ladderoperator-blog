@@ -35,6 +35,12 @@ home = ["HTML", "RSS"]
 
   custom_css = ["css/hugo-ladderoperator.css"]
 
+[params.beian]
+
+icp_text = "苏ICP备20017702号-1"
+wangan_text = "苏公网安备 32011702000204号"
+wangan_code = "32011702000204"
+
 [params.social]
 rss     = true 
 email   = "tz_ji@qq.com"
@@ -59,3 +65,14 @@ href  = "https://itxia.club"
 [[params.bookmark_link]]
 title = "Low Dimensional Magnetism Group"
 href  = "https://ldm.nju.edu.cn"
+
+[[params.addtional_menus]]
+title = "About"
+href = "top/about"
+
+[markup]
+  [markup.tableOfContents]
+    endLevel = 2
+    startLevel = 1
+  [markup.highlight]
+    style = "dracula"
