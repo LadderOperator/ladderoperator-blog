@@ -1,6 +1,6 @@
 ---
 title: 百合凋零（附录）：一些随笔
-date: 2020-8-28
+date: 2020-08-28
 image: images/lilybbs_appendix.jpg
 author: LadderOperator
 tags:
