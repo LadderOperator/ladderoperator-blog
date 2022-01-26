@@ -34,6 +34,8 @@ tags:
 
 原本想用现成的 Caddy V1 方案就完事儿，但想想还是用新的算了——结果就**误入了大坑**。
 
+## 思前想后 Git+Hugo
+
 ## 东拼西凑 Dockerfile
 
 ## 上下求索 Caddy API
