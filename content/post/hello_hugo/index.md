@@ -101,7 +101,7 @@ start_post_url = "https://ladderoperator.top/2021/03/13/ios_shortcuts/"
 + pypandoc
 + bs4
 
-但是实测下来`pypandoc`效果一般，比起 Typora 的抓换功能差了太多，对于表格等复杂一些的网页元素**它有它自己独到的理解**。因此后期我还是发扬工匠精神手工修了一下。
+但是实测下来`pypandoc`效果一般，比起 Typora 的转换功能差了太多，对于表格等复杂一些的网页元素**它有它自己独到的理解**。因此后期我还是发扬工匠精神手工修了一下。
 
 爬取（并精修）完毕后，我就获得了“纯净”的 Markdown 格式文章内容。
 
@@ -273,7 +273,7 @@ services:
 
 于是，我决定“听开发者的”，开始看起 Caddy API。
 
-Caddy API 其实就是向默认的`:2019`端口的不同 API 来直接控制 Caddy，而不是像 nginx 之类一样由某个配置文件。开发者认为，这种方式更有利于自动化——虽然但是你这个`JSON`的形式，比起 Caddyfile 的配置文件，它编辑起来真的太痛苦了——`{...}`和`[...]`层层嵌套，看起来属实头大。
+Caddy API 其实就是通过默认的`:2019`端口的不同 API 来直接控制 Caddy，而不是像 nginx 之类一样由某个配置文件。开发者认为，这种方式更有利于自动化——虽然但是你这个`JSON`的形式，比起 Caddyfile 的配置文件，它编辑起来真的太痛苦了——`{...}`和`[...]`层层嵌套，看起来属实头大。
 
 完整的`JSON`可以直接查看我的仓库，这里就不展开了，仅有几点如果有缘人看见，希望可以帮上忙。如果 webhook 插件一直访问失败，建议开启[logging](https://caddyserver.com/docs/json/logging/)，错误情况真的是五花八门：
 
@@ -292,3 +292,8 @@ Caddy API 其实就是向默认的`:2019`端口的不同 API 来直接控制 Cad
 + [使用 Hugo + Caddy2 + WebHook 搭建个人博客](https://triples.cc/posts/set-up-blog/)
 
 在此，特别感谢大佬们无私地分享。
+
+本文最终产出的 docker 镜像已经上传至 dockerhub：https://hub.docker.com/r/ladderoperator/caddy2-hugo-aliyun
+
+GitHub 仓库：https://github.com/LadderOperator/docker-caddy2-hugo-alidns
+南大 Git 仓库：https://git.nju.edu.cn/ladderoperator/docker-caddy2-hugo-alidns
