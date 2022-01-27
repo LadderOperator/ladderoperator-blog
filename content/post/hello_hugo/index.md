@@ -293,7 +293,8 @@ Caddy API 其实就是通过默认的`:2019`端口的不同 API 来直接控制 
 
 在此，特别感谢大佬们无私地分享。
 
-本文最终产出的 docker 镜像已经上传至 dockerhub：https://hub.docker.com/r/ladderoperator/caddy2-hugo-aliyun
+本文最终产出的 docker 镜像已经上传至 dockerhub：<https://hub.docker.com/r/ladderoperator/caddy2-hugo-aliyun>
 
-GitHub 仓库：https://github.com/LadderOperator/docker-caddy2-hugo-alidns
-南大 Git 仓库：https://git.nju.edu.cn/ladderoperator/docker-caddy2-hugo-alidns
+GitHub 仓库：<https://github.com/LadderOperator/docker-caddy2-hugo-alidns>
+
+南大 Git 仓库：<https://git.nju.edu.cn/ladderoperator/docker-caddy2-hugo-alidns>
