@@ -54,7 +54,7 @@ a:hover {
 }
 
 .sidebar-container {
-	float: right!important;
+	float: left!important;
 }
 
 .post-thumb-inner > a {
