@@ -1,3 +1,3 @@
 [submodule "themes/hugo-theme-cleanwhite"]
 	path = themes/hugo-theme-cleanwhite
-	url = https://gitee.com/ladderoperator/hugo-theme-cleanwhite.git
+	url = git@github.com:LadderOperator/hugo-theme-cleanwhite.git
