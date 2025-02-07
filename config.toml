@@ -6,8 +6,8 @@ theme = 'hugo-theme-cleanwhite'
 preserveTaxonomyNames = true
 paginate = 8 #frontpage pagination
 
-builddrafts = false
-canonifyurls = true
+buildDrafts = false
+canonifyURLs = true
 hasCJKLanguage = true
 
 summaryLength = 60
